@@ -101,8 +101,8 @@ function! startify#insane_in_the_membrane() abort
 
   let b:startify_section_header_lines = []
   let s:lists = get(g:, 'startify_list_order', [
-        \ ['   MRU'],            'files',
-        \ ['   MRU '. getcwd()], 'dir',
+        \ ['   ❤️ MRU'],            'files',
+        \ ['   ❤️ MRU '. getcwd()], 'dir',
         \ ['   Sessions'],       'sessions',
         \ ['   Bookmarks'],      'bookmarks',
         \ ['   Commands'],       'commands',
